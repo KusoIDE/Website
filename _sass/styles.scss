@@ -120,15 +120,7 @@ a {
 }
 
 footer {
-   clear: both;
-   z-index: 10;
-   width: 100%;
-   position: static;
-   bottom: 0;
-   background: #333;
    color: #eee;
-   margin-top: 5em;
-
    .column {
       padding: 0.5em 0;
       h1 {
@@ -146,6 +138,9 @@ footer {
 
 }
 
+.desc  {
+  margin-top: 10em;
+}
 .ui.label {
    text-transform: capitalize;
 }
@@ -191,4 +186,7 @@ a {
 
 }
 
+}
+.button {
+  margin-top: 0.4em !important;
 }
