@@ -1,0 +1,20 @@
+name: Kuso IDE
+markdown: redcarpet
+pygments: true
+url: http://kuso.lxsameer.com
+description: Fast and flexible IDE base on lovely GNU/Emacs for Emacs gurus.
+copyright: copyright 2010-2014 Sameer Rahmani
+lsi: false
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile']
+
+authors:
+  lxsameer:
+    name: Sameer Rahmani
+    display_name: lxsameer
+    gravatar: c
+    email: lxsameer@gnu.org
+    web: http://www.lxsameer.com
+    twitter: lxsameer
+    github: lxsameer
+    color: orange
+    about: A Bad-ass developer who loves programming and enjoy learning new stuff.

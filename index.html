@@ -1,0 +1,15 @@
+---
+layout: home
+title: Yellowen Blog
+---
+
+{% for post in site.posts limit:1 %}
+<div class="post row">
+  <div class="ui vertical segment">
+  <h1 class="post-title">{{ post.title }}</h1>
+  <span>{{ post.date | date_to_string }}</span>
+  <p>{{ post.content }}</p>
+  </div>
+</div>
+<br />
+{% endfor %}
